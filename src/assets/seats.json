@@ -1,0 +1,114 @@
+{
+  "main": {
+    "firstRow": [
+      {
+        "seat": "A01",
+        "isAvailable": false,
+        "reservedBy": ""
+      },
+      {
+        "seat": "A02",
+        "isAvailable": true,
+        "reservedBy": ""
+      },
+      {
+        "seat": "A03",
+        "isAvailable": false,
+        "reservedBy": ""
+      },
+      {
+        "seat": "A04",
+        "isAvailable": true,
+        "reservedBy": ""
+      },
+      {
+        "seat": "A05",
+        "isAvailable": true,
+        "reservedBy": ""
+      }
+    ],
+    "secondRow": [
+      {
+        "seat": "A06",
+        "isAvailable": true,
+        "reservedBy": ""
+      },
+      {
+        "seat": "A07",
+        "isAvailable": false,
+        "reservedBy": ""
+      },
+      {
+        "seat": "A08",
+        "isAvailable": false,
+        "reservedBy": ""
+      },
+      {
+        "seat": "A09",
+        "isAvailable": true,
+        "reservedBy": ""
+      },
+      {
+        "seat": "A10",
+        "isAvailable": false,
+        "reservedBy": ""
+      }
+    ]
+  },
+  "sushi": {
+    "firstRow": [
+      {
+        "seat": "A11",
+        "isAvailable": false,
+        "reservedBy": ""
+      },
+      {
+        "seat": "A12",
+        "isAvailable": true,
+        "reservedBy": ""
+      },
+      {
+        "seat": "A13",
+        "isAvailable": false,
+        "reservedBy": ""
+      },
+      {
+        "seat": "A14",
+        "isAvailable": true,
+        "reservedBy": ""
+      },
+      {
+        "seat": "A15",
+        "isAvailable": true,
+        "reservedBy": ""
+      }
+    ],
+    "secondRow": [
+      {
+        "seat": "A16",
+        "isAvailable": true,
+        "reservedBy": ""
+      },
+      {
+        "seat": "A17",
+        "isAvailable": false,
+        "reservedBy": ""
+      },
+      {
+        "seat": "A18",
+        "isAvailable": true,
+        "reservedBy": ""
+      },
+      {
+        "seat": "A19",
+        "isAvailable": true,
+        "reservedBy": ""
+      },
+      {
+        "seat": "A20",
+        "isAvailable": false,
+        "reservedBy": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+/*the table icon*/
+* {
+  font-family: "Nunito Sans";
+}
+.sun-solid.icon {
+  color: #000;
+  position: absolute;
+  margin-left: 6px;
+  margin-top: 6px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 11px solid currentColor;
+  background-color: currentColor;
+  box-shadow: -18px 0 0 -6px currentColor, 18px 0 0 -6px currentColor,
+    0 -18px 0 -6px currentColor, 0 18px 0 -6px currentColor,
+    -16px -16px 0 -6px currentColor, -16px 16px 0 -6px currentColor,
+    16px -16px 0 -6px currentColor, 16px 16px 0 -6px currentColor;
+}
+
+.sun-solid.icon.selected {
+  color: #6feaf6;
+}
+
+.sun-solid.icon.occupied {
+  color: rgb(228, 76, 76);
+}
+
+.sun-solid.icon:nth-of-type(2) {
+  margin-right: 18px;
+}
+
+.sun-solid.icon:nth-last-of-type(2) {
+  margin-left: 18px;
+}
+
+.sun-solid.icon:not(.occupied):hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.showcase {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+.lighter {
+  color: #a0a3a6;
+}

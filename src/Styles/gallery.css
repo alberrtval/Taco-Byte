@@ -1,0 +1,14 @@
+
+.shown {
+  display: block;
+}
+.w-60 {
+  width: 60%;
+}
+
+@media (max-width: 500px) {
+  img {
+    margin: auto;
+    display: block;
+  }
+}
