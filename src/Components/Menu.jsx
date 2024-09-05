@@ -58,14 +58,14 @@ export default function Menu() {
           >
             <img
               className="card-img-top img-circle rounded-circle"
-              src="../img\roast-turkey-breast-roll.jpg"
+              src="../img\tacos-de-pollo.jpg"
               alt="Card image cap"
             />
             <div className="card-block text-center">
               <h5 className="card-title mt-4 p-1 text-danger">
-                Boneless Roll (x5)
+                Atlantico Roll (x7)
               </h5>
-              <h5 className="card-text">$15.00</h5>
+              <h5 className="card-text">$20.00</h5>
               <h6 className="card-text text-warning p-2">
                 No disponible en delivery
               </h6>
@@ -77,16 +77,16 @@ export default function Menu() {
           >
             <img
               className="card-img-top img-circle rounded-circle"
-              src="https://source.unsplash.com/EqoCUzG9200/600x300"
+              src="../img\tacos-de-pollo.jpg"
               alt="Card image cap"
             />
             <div className="card-block text-center">
               <h5 className="card-title mt-4 p-1 text-danger">
-                California Roll (x10)
+                Atlantico Roll (x7)
               </h5>
-              <h5 className="card-text">$10.00</h5>
+              <h5 className="card-text">$20.00</h5>
               <h6 className="card-text text-warning p-2">
-                Disponible en delivery
+                No disponible en delivery
               </h6>
             </div>
           </div>
@@ -96,16 +96,54 @@ export default function Menu() {
           >
             <img
               className="card-img-top img-circle rounded-circle"
-              src="https://source.unsplash.com/qL1epYy4hdU/600x300"
+              src="../img\tacos-de-pollo.jpg"
               alt="Card image cap"
             />
             <div className="card-block text-center">
               <h5 className="card-title mt-4 p-1 text-danger">
-                Acevichado Roll (x10)
+                Atlantico Roll (x7)
               </h5>
-              <h5 className="card-text">$12.00</h5>
+              <h5 className="card-text">$20.00</h5>
               <h6 className="card-text text-warning p-2">
-                Disponible en delivery
+                No disponible en delivery
+              </h6>
+            </div>
+          </div>
+          <div
+            className="card mt-5 pt-5 rounded bg-dark lighter"
+            style={{ width: "11rem" }}
+          >
+            <img
+              className="card-img-top img-circle rounded-circle"
+              src="../img\tacos-de-pollo.jpg"
+              alt="Card image cap"
+            />
+            <div className="card-block text-center">
+              <h5 className="card-title mt-4 p-1 text-danger">
+                Atlantico Roll (x7)
+              </h5>
+              <h5 className="card-text">$20.00</h5>
+              <h6 className="card-text text-warning p-2">
+                No disponible en delivery
+              </h6>
+            </div>
+          </div>
+          <div
+            className="card mt-5 pt-5 rounded bg-dark lighter"
+            style={{ width: "11rem" }}
+          >
+            <img
+              className="card-img-top img-circle rounded-circle"
+              src="../img\tacos-de-pollo.jpg"
+              alt="Card image cap"
+            />
+            <div className="card-block text-center">
+              <h5 className="card-title mt-4 p-1 text-danger">
+                Atlantico Roll (x7)
+              </h5>
+              <h5 className="card-text">$20.00</h5>
+              <h6 className="card-text text-warning p-2">
+                No disponible en delivery
               </h6>
             </div>
           </div>
@@ -119,6 +157,44 @@ export default function Menu() {
         className="d-flex justify-content-around p-0 px-sm-5 mx-5 mb-5 flex-wrap"
         id="wrapper"
       >
+        <div
+          className="card mt-5 pt-5 rounded bg-dark lighter"
+          style={{ width: "11rem" }}
+        >
+          <img
+            className="card-img-top img-circle rounded-circle"
+            src="https://source.unsplash.com/1Shk_PkNkNw/600x300"
+            alt="Card image cap"
+          />
+          <div className="card-block text-center">
+            <h5 className="card-title mt-4 text-danger p-1">
+              Hamburguesa (x1)
+            </h5>
+            <h5 className="card-text">$10.99</h5>
+            <h6 className="card-text text-warning p-2">
+              Disponible en delivery
+            </h6>
+          </div>
+        </div>
+        <div
+          className="card mt-5 pt-5 rounded bg-dark lighter"
+          style={{ width: "11rem" }}
+        >
+          <img
+            className="card-img-top img-circle rounded-circle"
+            src="https://source.unsplash.com/1Shk_PkNkNw/600x300"
+            alt="Card image cap"
+          />
+          <div className="card-block text-center">
+            <h5 className="card-title mt-4 text-danger p-1">
+              Hamburguesa (x1)
+            </h5>
+            <h5 className="card-text">$10.99</h5>
+            <h6 className="card-text text-warning p-2">
+              Disponible en delivery
+            </h6>
+          </div>
+        </div>
         <div
           className="card mt-5 pt-5 rounded bg-dark lighter"
           style={{ width: "11rem" }}
