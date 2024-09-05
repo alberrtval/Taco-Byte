@@ -17,10 +17,13 @@ export default function Restaurant() {
             <h1>
               <span className="lighter lh-lg">40 minutos.</span>
             </h1>
+            <h1 className="lighter lh-lg">
+              <span className="text-info">Taco Byte</span>
+            </h1>
           </section>
           <section className="img lg:pe-5">
             <img
-              src="https://i.pinimg.com/474x/51/e3/7c/51e37c2b688170cdc07888eba287bfd1.jpg"
+              src="../img\taco.png"
               alt="Sushi"
               className="rounded"
               width="500px"

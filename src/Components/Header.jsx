@@ -9,7 +9,7 @@ export default function Header() {
       <header className="fixed-top px-sm-5 mb-5 w-100 bg-primary">
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
           <div className="container-fluid">
-            <Link to="/" className="navbar-brand" href="#">
+            <Link to="/" className="navbar-brand text-info" href="#">
               Taco Byte
             </Link>
             <button
