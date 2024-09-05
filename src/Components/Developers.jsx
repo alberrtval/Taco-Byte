@@ -1,11 +1,10 @@
 import React from "react";
 import "../Styles/bootstrap.min.css";
-import ivania from "../Styles/Images/ivania.jpg";
-import lu from "../Styles/Images/lu.jpg";
-import gio from "../Styles/Images/gio.jpg";
-import andrea from "../Styles/Images/andrea.jpg";
-import montano from "../Styles/Images/montano.jpg";
-
+import alberto from "../Styles/Images/alberto.jpeg"
+import moi from "../Styles/Images/moises.jpeg"
+import gato from "../Styles/Images/gato.jpeg"
+import roberto from "../Styles/Images/roberto.jpeg"
+import fer from "../Styles/Images/qepd.jpeg"
 export default function Developers() {
   return (
     <div className="mt-5 pt-5">
@@ -17,12 +16,12 @@ export default function Developers() {
           >
             <img
               className="card-img-top img-circle rounded-circle"
-              src={ivania}
+              src={moi}
               alt="Card image cap"
             />
             <div className="card-block text-center">
               <h5 className="card-title mt-4 text-warning p-1">
-                Ivania Lebrón
+                Moises Marroquin
               </h5>
               <p className="card-text">Developer & Designer</p>
               <h6 className="card-text  p-2">El Salvador, San Salvador</h6>
@@ -34,12 +33,12 @@ export default function Developers() {
           >
             <img
               className="card-img-top img-circle rounded-circle"
-              src={lu}
+              src={alberto}
               alt="Card image cap"
             />
             <div className="card-block text-center">
               <h5 className="card-title mt-4 text-warning p-1">
-                Luciana Munguía
+                Alberto Ramos
               </h5>
               <p className="card-text">Developer & Designer</p>
               <h6 className="card-text  p-2">El Salvador, San Salvador</h6>
@@ -51,12 +50,12 @@ export default function Developers() {
           >
             <img
               className="card-img-top img-circle rounded-circle"
-              src={andrea}
+              src={roberto}
               alt="Card image cap"
             />
             <div className="card-block text-center">
               <h5 className="card-title mt-4 text-warning p-1">
-                Andrea Velásquez
+                Roberto Melgares
               </h5>
               <p className="card-text">Developer & Designer</p>
               <h6 className="card-text  p-2">El Salvador, San Salvador</h6>
@@ -70,12 +69,12 @@ export default function Developers() {
           >
             <img
               className="card-img-top img-circle rounded-circle"
-              src={gio}
+              src={gato}
               alt="Card image cap"
             />
             <div className="card-block text-center">
               <h5 className="card-title mt-4 text-warning p-1">
-                Roberto Melgares
+                René Hernández
               </h5>
               <p className="card-text">Developer & Designer</p>
               <h6 className="card-text  p-2">El Salvador, San Salvador</h6>
@@ -87,12 +86,12 @@ export default function Developers() {
           >
             <img
               className="card-img-top img-circle rounded-circle"
-              src={montano}
+              src={fer}
               alt="Card image cap"
             />
             <div className="card-block text-center">
               <h5 className="card-title mt-4 text-warning p-1">
-                Fernando Montano
+                Fernando Aquino
               </h5>
               <p className="card-text">Developer & Designer</p>
               <h6 className="card-text  p-2">El Salvador, Santa Ana</h6>

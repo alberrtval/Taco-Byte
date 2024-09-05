@@ -109,7 +109,7 @@ export default function Reservation() {
           </div>
         </div>
         <div className="container mt-4 mb- bg-dark text-center text-light">
-          <p>Bar de sushi</p>
+          <p>Bar</p>
         </div>
         <div className="container mb-3 ps-5 pt-2 pb-4">
           <div className="row ">

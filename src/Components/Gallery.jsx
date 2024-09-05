@@ -69,7 +69,7 @@ export default function Gallery() {
               alt="..."
             />
             <div className="carousel-caption d-none d-md-block bg-primary rounded opacity-75">
-              <h5 className="lighter">Bar de Sushi</h5>
+              <h5 className="lighter">Bar de sushi</h5>
             </div>
           </div>
           <div className="carousel-item">
@@ -115,7 +115,7 @@ export default function Gallery() {
         <h1 className="text-secondary">Principales</h1>
 
         <img src={img3} alt="" className="py-2 rounded" />
-        <h1 className="text-secondary">Bar de Sushi</h1>
+        <h1 className="text-secondary">Bar</h1>
 
         <img src={img4} alt="" className="py-2 rounded" />
         <h1 className="text-secondary">Terraza</h1>
