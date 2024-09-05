@@ -20,7 +20,7 @@ export default function Menu() {
           >
             <img
               className="card-img-top img-circle rounded-circle"
-              src="https://i.pinimg.com/474x/51/e3/7c/51e37c2b688170cdc07888eba287bfd1.jpg"
+              src="../img\burrito-chicken-close-up-delicious.jpg"
               alt="Card image cap"
             />
             <div className="card-block text-center">
@@ -39,7 +39,7 @@ export default function Menu() {
           >
             <img
               className="card-img-top img-circle rounded-circle"
-              src="https://source.unsplash.com/zali_zGDWo8/600x300"
+              src="../img\tacos-de-pollo.jpg"
               alt="Card image cap"
             />
             <div className="card-block text-center">
