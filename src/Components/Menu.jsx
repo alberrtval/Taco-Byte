@@ -7,7 +7,7 @@ export default function Menu() {
     <div className="bg-primary">
       <div className="bg-primary">
         <h3 className="mt-5 pt-5 px-5 text-warning">
-          Opciones de Sushi
+          Nuestros productos
           <div className="line mt-2"></div>
         </h3>
         <div
@@ -20,16 +20,16 @@ export default function Menu() {
           >
             <img
               className="card-img-top img-circle rounded-circle"
-              src="../img\burrito-chicken-close-up-delicious.jpg"
+              src="../img\tacos-de-pollo.jpg"
               alt="Card image cap"
             />
             <div className="card-block text-center">
               <h5 className="card-title mt-4 text-danger p-1">
-                Sushi De La Casa (x10)
+                Tacos de la casa (x4)
               </h5>
-              <h5 className="card-text">$25.00</h5>
+              <h5 className="card-text">$6.50</h5>
               <h6 className="card-text text-warning p-2">
-                Disponible en delivery
+              Tacos de tu carne de preferencia marinada con piña, cilantro y cebolla. Un clásico.
               </h6>
             </div>
           </div>
@@ -39,16 +39,16 @@ export default function Menu() {
           >
             <img
               className="card-img-top img-circle rounded-circle"
-              src="../img\tacos-de-pollo.jpg"
+              src="../img\Enchiladas-Verde.jpg"
               alt="Card image cap"
             />
             <div className="card-block text-center">
               <h5 className="card-title mt-4 p-1 text-danger">
-                Atlantico Roll (x7)
+                Enchiladas verdes (x3)
               </h5>
-              <h5 className="card-text">$20.00</h5>
+              <h5 className="card-text">$8.99</h5>
               <h6 className="card-text text-warning p-2">
-                No disponible en delivery
+              Tortillas rellenas de pollo bañadas en salsa verde. Acompañadas de arroz y frijoles
               </h6>
             </div>
           </div>
@@ -58,16 +58,16 @@ export default function Menu() {
           >
             <img
               className="card-img-top img-circle rounded-circle"
-              src="../img\tacos-de-pollo.jpg"
+              src="../img\Huitlacoche-quesadilla.jpg"
               alt="Card image cap"
             />
             <div className="card-block text-center">
               <h5 className="card-title mt-4 p-1 text-danger">
-                Atlantico Roll (x7)
+              Quesadillas de Huitlacoche (x3)
               </h5>
-              <h5 className="card-text">$20.00</h5>
+              <h5 className="card-text">$7.99</h5>
               <h6 className="card-text text-warning p-2">
-                No disponible en delivery
+              Tortillas rellenas de queso y huitlacoche, servidas con guacamole.
               </h6>
             </div>
           </div>
@@ -77,16 +77,16 @@ export default function Menu() {
           >
             <img
               className="card-img-top img-circle rounded-circle"
-              src="../img\tacos-de-pollo.jpg"
+              src="../img\chile-relleno.jpg"
               alt="Card image cap"
             />
             <div className="card-block text-center">
               <h5 className="card-title mt-4 p-1 text-danger">
-                Atlantico Roll (x7)
+              Chiles Rellenos (x4)
               </h5>
-              <h5 className="card-text">$20.00</h5>
+              <h5 className="card-text">$9.99</h5>
               <h6 className="card-text text-warning p-2">
-                No disponible en delivery
+              Poblano relleno de queso o carne, frito y cubierto de salsa.
               </h6>
             </div>
           </div>
@@ -96,16 +96,16 @@ export default function Menu() {
           >
             <img
               className="card-img-top img-circle rounded-circle"
-              src="../img\tacos-de-pollo.jpg"
+              src="../img\tostadas-civiche.jpg"
               alt="Card image cap"
             />
             <div className="card-block text-center">
               <h5 className="card-title mt-4 p-1 text-danger">
-                Atlantico Roll (x7)
+              Tostadas de Ceviche (x3)
               </h5>
-              <h5 className="card-text">$20.00</h5>
+              <h5 className="card-text">$6.99</h5>
               <h6 className="card-text text-warning p-2">
-                No disponible en delivery
+              Tostadas con pescado marinado en limón, jitomate y aguacate.
               </h6>
             </div>
           </div>
@@ -115,16 +115,16 @@ export default function Menu() {
           >
             <img
               className="card-img-top img-circle rounded-circle"
-              src="../img\tacos-de-pollo.jpg"
+              src="../img\flautas-de-pollo.jpg"
               alt="Card image cap"
             />
             <div className="card-block text-center">
               <h5 className="card-title mt-4 p-1 text-danger">
-                Atlantico Roll (x7)
+              Flautas de Pollo (x6)
               </h5>
-              <h5 className="card-text">$20.00</h5>
+              <h5 className="card-text">$7.50</h5>
               <h6 className="card-text text-warning p-2">
-                No disponible en delivery
+              Tortillas crujientes rellenas de pollo, servidas con crema y queso.
               </h6>
             </div>
           </div>
@@ -134,16 +134,16 @@ export default function Menu() {
           >
             <img
               className="card-img-top img-circle rounded-circle"
-              src="../img\tacos-de-pollo.jpg"
+              src="../img\tamal.jpg"
               alt="Card image cap"
             />
             <div className="card-block text-center">
               <h5 className="card-title mt-4 p-1 text-danger">
-                Atlantico Roll (x7)
+                Tamal tradicional-Unidad
               </h5>
-              <h5 className="card-text">$20.00</h5>
+              <h5 className="card-text">$2.00</h5>
               <h6 className="card-text text-warning p-2">
-                No disponible en delivery
+              Tamales de pollo o cerdo, cocidos al vapor, servidos con frijoles.
               </h6>
             </div>
           </div>
@@ -163,105 +163,16 @@ export default function Menu() {
         >
           <img
             className="card-img-top img-circle rounded-circle"
-            src="https://source.unsplash.com/1Shk_PkNkNw/600x300"
+            src="../img\guacamole-casero.jpg"
             alt="Card image cap"
           />
           <div className="card-block text-center">
             <h5 className="card-title mt-4 text-danger p-1">
-              Hamburguesa (x1)
+            Guacamole Casero 
             </h5>
-            <h5 className="card-text">$10.99</h5>
-            <h6 className="card-text text-warning p-2">
-              Disponible en delivery
-            </h6>
-          </div>
-        </div>
-        <div
-          className="card mt-5 pt-5 rounded bg-dark lighter"
-          style={{ width: "11rem" }}
-        >
-          <img
-            className="card-img-top img-circle rounded-circle"
-            src="https://source.unsplash.com/1Shk_PkNkNw/600x300"
-            alt="Card image cap"
-          />
-          <div className="card-block text-center">
-            <h5 className="card-title mt-4 text-danger p-1">
-              Hamburguesa (x1)
-            </h5>
-            <h5 className="card-text">$10.99</h5>
-            <h6 className="card-text text-warning p-2">
-              Disponible en delivery
-            </h6>
-          </div>
-        </div>
-        <div
-          className="card mt-5 pt-5 rounded bg-dark lighter"
-          style={{ width: "11rem" }}
-        >
-          <img
-            className="card-img-top img-circle rounded-circle"
-            src="https://source.unsplash.com/1Shk_PkNkNw/600x300"
-            alt="Card image cap"
-          />
-          <div className="card-block text-center">
-            <h5 className="card-title mt-4 text-danger p-1">
-              Hamburguesa (x1)
-            </h5>
-            <h5 className="card-text">$10.99</h5>
-            <h6 className="card-text text-warning p-2">
-              Disponible en delivery
-            </h6>
-          </div>
-        </div>
-        <div
-          className="card mt-5 pt-5 rounded bg-dark lighter"
-          style={{ width: "11rem" }}
-        >
-          <img
-            className="card-img-top img-circle rounded-circle"
-            src="https://source.unsplash.com/qom5MPOER-I/600x300"
-            alt="Card image cap"
-          />
-          <div className="card-block text-center">
-            <h5 className="card-title mt-4 p-1 text-danger">Ramen (x1)</h5>
-            <h5 className="card-text">$7.99</h5>
-            <h6 className="card-text text-warning p-2">
-              Disponible en delivery
-            </h6>
-          </div>
-        </div>
-        <div
-          className="card mt-5 pt-5 rounded bg-dark lighter"
-          style={{ width: "11rem" }}
-        >
-          <img
-            className="card-img-top img-circle rounded-circle"
-            src="https://source.unsplash.com/uU0Anw-8Vsg/600x300"
-            alt="Card image cap"
-          />
-          <div className="card-block text-center">
-            <h5 className="card-title mt-4 p-1 text-danger">Pizza (x1)</h5>
-            <h5 className="card-text">$12.00</h5>
-            <h6 className="card-text text-warning p-2">
-              Disponible en delivery
-            </h6>
-          </div>
-        </div>
-        <div
-          className="card mt-5 pt-5 rounded bg-dark lighter"
-          style={{ width: "11rem" }}
-        >
-          <img
-            className="card-img-top img-circle rounded-circle"
-            src="https://source.unsplash.com/5c_aG2FDYEI/600x300"
-            alt="Card image cap"
-          />
-          <div className="card-block text-center">
-            <h5 className="card-title mt-4 p-1 text-danger">Waffles (x10)</h5>
             <h5 className="card-text">$4.99</h5>
             <h6 className="card-text text-warning p-2">
-              No disponible en delivery
+            Aguacate fresco con tomate, cebolla y limón, servido con totopos.
             </h6>
           </div>
         </div>
@@ -271,14 +182,111 @@ export default function Menu() {
         >
           <img
             className="card-img-top img-circle rounded-circle"
-            src="https://source.unsplash.com/enVg_Vtsw1c/600x300"
+            src = "../img\Pozole-rojo.jpg"
             alt="Card image cap"
           />
           <div className="card-block text-center">
-            <h5 className="card-title mt-4 p-1 text-danger">Postre</h5>
-            <h5 className="card-text">$12.00</h5>
+            <h5 className="card-title mt-4 text-danger p-1">
+              Pozole Rojo
+            </h5>
+            <h5 className="card-text">$9.99</h5>
             <h6 className="card-text text-warning p-2">
-              No disponible en delivery
+            Guiso de cerdo y maíz en caldo rojo, con lechuga y rábanos.
+            </h6>
+          </div>
+        </div>
+        <div
+          className="card mt-5 pt-5 rounded bg-dark lighter"
+          style={{ width: "11rem" }}
+        >
+          <img
+            className="card-img-top img-circle rounded-circle"
+            src="../img\Mole.jpg"
+            alt="Card image cap"
+          />
+          <div className="card-block text-center">
+            <h5 className="card-title mt-4 text-danger p-1">
+              Mole Poblano
+            </h5>
+            <h5 className="card-text">$10.99</h5>
+            <h6 className="card-text text-warning p-2">
+            Pollo en mole de chiles y chocolate, acompañado de arroz.
+            </h6>
+          </div>
+        </div>
+        <div
+          className="card mt-5 pt-5 rounded bg-dark lighter"
+          style={{ width: "11rem" }}
+        >
+          <img
+            className="card-img-top img-circle rounded-circle"
+            src="../img\Horchata.jpg"
+            alt="Card image cap"
+          />
+          <div className="card-block text-center">
+            <h5 className="card-title mt-4 p-1 text-danger">
+            Agua de Horchata
+              </h5>
+            <h5 className="card-text">$2.50</h5>
+            <h6 className="card-text text-warning p-2">
+            Bebida refrescante de arroz con canela y un toque de vainilla.
+            </h6>
+          </div>
+        </div>
+        <div
+          className="card mt-5 pt-5 rounded bg-dark lighter"
+          style={{ width: "11rem" }}
+        >
+          <img
+            className="card-img-top img-circle rounded-circle"
+            src="../img\Jamaica.jpg"
+            alt="Card image cap"
+          />
+          <div className="card-block text-center">
+            <h5 className="card-title mt-4 p-1 text-danger">
+            Agua de Jamaica
+              </h5>
+            <h5 className="card-text">$2.50</h5>
+            <h6 className="card-text text-warning p-2">
+            Infusión fría de flor de jamaica, ligeramente endulzada, perfecta para acompañar tu comida.
+            </h6>
+          </div>
+        </div>
+        <div
+          className="card mt-5 pt-5 rounded bg-dark lighter"
+          style={{ width: "11rem" }}
+        >
+          <img
+            className="card-img-top img-circle rounded-circle"
+            src="../img\cerveza.jpg"
+            alt="Card image cap"
+          />
+          <div className="card-block text-center">
+            <h5 className="card-title mt-4 p-1 text-danger">
+              Cerveza Nacional
+              </h5>
+            <h5 className="card-text">$3.50</h5>
+            <h6 className="card-text text-warning p-2">
+            Disfruta de una cerveza mexicana bien fría para acompañar tu comida.
+            </h6>
+          </div>
+        </div>
+        <div
+          className="card mt-5 pt-5 rounded bg-dark lighter"
+          style={{ width: "11rem" }}
+        >
+          <img
+            className="card-img-top img-circle rounded-circle"
+            src="../img\flan.jpg"
+            alt="Card image cap"
+          />
+          <div className="card-block text-center">
+            <h5 className="card-title mt-4 p-1 text-danger">
+            Flan Casero
+              </h5>
+            <h5 className="card-text">$3.00</h5>
+            <h6 className="card-text text-warning p-2">
+            Postre tradicional mexicano, suave y cremoso, con caramelo.
             </h6>
           </div>
         </div>
