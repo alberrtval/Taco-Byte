@@ -2,7 +2,7 @@ import React from "react";
 import "../Styles/bootstrap.min.css";
 import alberto from "../Styles/Images/alberto.jpeg";
 import moi from "../Styles/Images/moises.jpeg";
-import gato from "../Styles/Images/gato.jpeg";
+import rene from "../Styles/Images/rene-castro.png";
 import roberto from "../Styles/Images/roberto.jpeg";
 import fer from "../Styles/Images/qepd.jpeg";
 
@@ -72,7 +72,7 @@ export default function Developers() {
           >
             <img
               className="card-img-top img-circle rounded-circle"
-              src={gato}
+              src={rene}
               alt="Card image cap"
             />
             <div className="card-block text-center">
