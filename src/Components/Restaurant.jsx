@@ -61,8 +61,8 @@ export default function Restaurant() {
               generación en generación.
             </h4>
             <h4 className="lighter lh-lg">
-              Descubre la riqueza de los auténticos platillos mexicanos en Taco
-              Byte.
+              Descubre la riqueza de los auténticos platillos mexicanos en{" "}
+              <span className="fs-2 text-info"> Taco Byte</span>.
             </h4>
           </section>
         </article>
