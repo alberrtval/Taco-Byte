@@ -1,10 +1,13 @@
 import React from "react";
 import "../Styles/bootstrap.min.css";
-import alberto from "../Styles/Images/alberto.jpeg"
-import moi from "../Styles/Images/moises.jpeg"
-import gato from "../Styles/Images/gato.jpeg"
-import roberto from "../Styles/Images/roberto.jpeg"
-import fer from "../Styles/Images/qepd.jpeg"
+import alberto from "../Styles/Images/alberto.jpeg";
+import moi from "../Styles/Images/moises.jpeg";
+import gato from "../Styles/Images/gato.jpeg";
+import roberto from "../Styles/Images/roberto.jpeg";
+import fer from "../Styles/Images/qepd.jpeg";
+
+/*Este apartado esta destinado a mostrar los diferentes programadores los cuales trabajaron para el desarrollo de está página web*/
+
 export default function Developers() {
   return (
     <div className="mt-5 pt-5">

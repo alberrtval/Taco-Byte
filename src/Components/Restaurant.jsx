@@ -2,6 +2,8 @@ import React from "react";
 import "../Styles/bootstrap.min.css";
 import "../Styles/styles.css";
 
+/*Esta sección esta destinada para mostrar la página principal del restaurante donde se aclara quienes somos y que se realiza*/
+
 export default function Restaurant() {
   return (
     <div className="bg-primary px-5">
@@ -24,10 +26,44 @@ export default function Restaurant() {
           <section className="img lg:pe-5">
             <img
               src="../img\taco.png"
-              alt="Sushi"
+              alt="Taco"
               className="rounded"
               width="500px"
             />
+          </section>
+        </article>
+        <article className="d-flex flex-column flex-lg-row lg:ps-5 py-3 px-3 pt-5 gap-3 justify-content-around align-items-center text-center bg-dark rounded">
+          <section className="img lg:pe-5">
+            <img
+              src="../img/bandera_mexico.jpg"
+              alt="Bandera"
+              className="rounded shadow"
+              width="500px"
+            />
+          </section>
+
+          <section className="info text-center text-lg-start px-3">
+            <h3 className="fw-bold lighter lh-lg">
+              <span className="text-success">Historia</span>{" "}
+              <span className="text-white">y sabor </span>
+              <span className="text-danger">mexicano</span>
+            </h3>
+            <h4 className="lighter lh-lg">
+              La comida mexicana es una tradición que se remonta a la época
+              prehispánica, fusionando ingredientes autóctonos como el maíz, el
+              chile y el frijol con sabores traídos de otros continentes.
+            </h4>
+            <h4 className="lighter lh-lg">
+              Cada bocado cuenta una historia de{" "}
+              <span className="text-warning fs-3">cultura</span>,
+              <span className="text-danger fs-3">pasión</span> y{" "}
+              <span className="text-info fs-3">familia</span>, transmitida de
+              generación en generación.
+            </h4>
+            <h4 className="lighter lh-lg">
+              Descubre la riqueza de los auténticos platillos mexicanos en Taco
+              Byte.
+            </h4>
           </section>
         </article>
       </main>

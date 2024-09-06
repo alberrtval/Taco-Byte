@@ -2,11 +2,25 @@ import React, { useRef, useState } from "react";
 import "../Styles/dates.css";
 import swal from "sweetalert";
 
+/*Crea una ventana emergente la cual nos asegura el estado de la reserva de la mesa*/
+
 export default function Modal({ status, name, price }) {
   const username = useRef(null);
 
+  /*Está función permite verificar si el susuario ha ingresado o no su nombre Para realizar la reserva*/
   const getResult = () => {
-    name(username.current.value);
+    const enteredName = username.current.value.trim();
+    if (enteredName === "") {
+      swal({
+        title: "Error",
+        text: "Por favor ingresa tu nombre completo.",
+        icon: "error",
+        button: "Aceptar",
+      });
+      return;
+    }
+
+    name(enteredName);
     status(true);
     swal({
       title: "Reservación exitosa",
@@ -15,6 +29,7 @@ export default function Modal({ status, name, price }) {
       button: "Aceptar",
     });
   };
+
   return (
     <div>
       <button

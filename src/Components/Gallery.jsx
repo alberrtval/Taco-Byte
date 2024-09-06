@@ -5,6 +5,8 @@ import img2 from "../Styles/Images/imagen 2.jpg";
 import img3 from "../Styles/Images/imagen 3.jpg";
 import img4 from "../Styles/Images/imagen 4.jpg";
 
+/*Este apartado nos permite mostrar de forma interactiva como se ver de manera fisica el restaurante*/
+
 export default function Gallery() {
   return (
     <div className="">

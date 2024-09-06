@@ -3,6 +3,8 @@ import { Outlet, Link } from "react-router-dom";
 import "../Styles/bootstrap.min.css";
 import "../Styles/styles.css";
 
+/*Este es el header el cual se muestra por todas las diferentes secciones de la pagina web lo cual nos permite cambiar y navegar por las diferentes opciones que tiene la página web*/
+
 export default function Header() {
   return (
     <div>

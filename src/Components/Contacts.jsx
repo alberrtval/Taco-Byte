@@ -7,6 +7,8 @@ import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 
+/*Este a partado esta destinado para mostrar las diferentes maneras de contacto con el restaurante mostrando su localizacion o redes sociales*/
+
 export default function Contacts() {
   return (
     <div className="mt-5 pt-5">

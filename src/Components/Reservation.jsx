@@ -4,6 +4,8 @@ import "../Styles/bootstrap.min.css";
 import Modal from "./Modal";
 import json from "../assets/seats.json";
 
+/*Este componente `Reservation` representa un sistema de reservación de mesas para un restaurante. mostrando las mesas disponibles y permitiendo al usuario seleccionar mesas para reservar.*/
+
 export default function Reservation() {
   const [count, setCount] = useState(0);
   const [selected, setSelected] = useState([]);
@@ -114,7 +116,7 @@ export default function Reservation() {
         <div className="container mb-3 ps-5 pt-2 pb-4">
           <div className="row ">
             {!seats ||
-              seats.sushi.firstRow.map(({ seat, isAvailable }, index) => {
+              seats.taco.firstRow.map(({ seat, isAvailable }, index) => {
                 return (
                   <div className="col">
                     <div
@@ -130,7 +132,7 @@ export default function Reservation() {
         <div className="container mb-3 ps-5 py-4  ">
           <div className="row ">
             {!seats ||
-              seats.sushi.secondRow.map(({ seat, isAvailable }, index) => {
+              seats.taco.secondRow.map(({ seat, isAvailable }, index) => {
                 return (
                   <div className="col">
                     <div
