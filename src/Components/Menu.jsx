@@ -1,6 +1,20 @@
 import React from "react";
 import "../Styles/bootstrap.min.css";
 import "../Styles/cards.css";
+import taco_pollo from "../Styles/Images/tacos-de-pollo.jpg";
+import enchilada_verde from "../Styles/Images/Enchiladas-Verde.jpg";
+import huitacloche from "../Styles/Images/Huitlacoche-quesadilla.jpg";
+import chile_relleno from "../Styles/Images/chile-relleno.jpg";
+import tostada_ceviche from "../Styles/Images/tostadas-civiche.jpg";
+import flauta_pollo from "../Styles/Images/flautas-de-pollo.jpg";
+import tamal from "../Styles/Images/tamal.jpg";
+import guacamole_cacero from "../Styles/Images/tacos-de-pollo.jpg";
+import pozole_rojo from "../Styles/Images/Pozole-rojo.jpg";
+import mole from "../Styles/Images/Mole.jpg";
+import horchata from "../Styles/Images/Horchata.jpg";
+import jamaica from "../Styles/Images/Jamaica.jpg";
+import cerveza from "../Styles/Images/cerveza.jpg";
+import flan from "../Styles/Images/flan.jpg";
 
 /*Está parte está destinada a la mostrar los diferentes productos que se tienen en el restaurante de una manera sofistacada y atractiva*/
 
@@ -22,7 +36,7 @@ export default function Menu() {
           >
             <img
               className="card-img-top img-circle rounded-circle"
-              src="../img\tacos-de-pollo.jpg"
+              src={taco_pollo}
               alt="Card image cap"
             />
             <div className="card-block text-center">
@@ -42,7 +56,7 @@ export default function Menu() {
           >
             <img
               className="card-img-top img-circle rounded-circle"
-              src="../img\Enchiladas-Verde.jpg"
+              src={enchilada_verde}
               alt="Card image cap"
             />
             <div className="card-block text-center">
@@ -62,7 +76,7 @@ export default function Menu() {
           >
             <img
               className="card-img-top img-circle rounded-circle"
-              src="../img\Huitlacoche-quesadilla.jpg"
+              src={huitacloche}
               alt="Card image cap"
             />
             <div className="card-block text-center">
@@ -82,7 +96,7 @@ export default function Menu() {
           >
             <img
               className="card-img-top img-circle rounded-circle"
-              src="../img\chile-relleno.jpg"
+              src={chile_relleno}
               alt="Card image cap"
             />
             <div className="card-block text-center">
@@ -101,7 +115,7 @@ export default function Menu() {
           >
             <img
               className="card-img-top img-circle rounded-circle"
-              src="../img\tostadas-civiche.jpg"
+              src={tostada_ceviche}
               alt="Card image cap"
             />
             <div className="card-block text-center">
@@ -120,7 +134,7 @@ export default function Menu() {
           >
             <img
               className="card-img-top img-circle rounded-circle"
-              src="../img\flautas-de-pollo.jpg"
+              src={flauta_pollo}
               alt="Card image cap"
             />
             <div className="card-block text-center">
@@ -140,7 +154,7 @@ export default function Menu() {
           >
             <img
               className="card-img-top img-circle rounded-circle"
-              src="../img\tamal.jpg"
+              src={tamal}
               alt="Card image cap"
             />
             <div className="card-block text-center">
@@ -170,7 +184,7 @@ export default function Menu() {
         >
           <img
             className="card-img-top img-circle rounded-circle"
-            src="../img\guacamole-casero.jpg"
+            src={guacamole_cacero}
             alt="Card image cap"
           />
           <div className="card-block text-center">
@@ -189,7 +203,7 @@ export default function Menu() {
         >
           <img
             className="card-img-top img-circle rounded-circle"
-            src="../img\Pozole-rojo.jpg"
+            src={pozole_rojo}
             alt="Card image cap"
           />
           <div className="card-block text-center">
@@ -206,7 +220,7 @@ export default function Menu() {
         >
           <img
             className="card-img-top img-circle rounded-circle"
-            src="../img\Mole.jpg"
+            src={mole}
             alt="Card image cap"
           />
           <div className="card-block text-center">
@@ -223,7 +237,7 @@ export default function Menu() {
         >
           <img
             className="card-img-top img-circle rounded-circle"
-            src="../img\Horchata.jpg"
+            src={horchata}
             alt="Card image cap"
           />
           <div className="card-block text-center">
@@ -242,7 +256,7 @@ export default function Menu() {
         >
           <img
             className="card-img-top img-circle rounded-circle"
-            src="../img\Jamaica.jpg"
+            src={jamaica}
             alt="Card image cap"
           />
           <div className="card-block text-center">
@@ -260,7 +274,7 @@ export default function Menu() {
         >
           <img
             className="card-img-top img-circle rounded-circle"
-            src="../img\cerveza.jpg"
+            src={cerveza}
             alt="Card image cap"
           />
           <div className="card-block text-center">
@@ -280,7 +294,7 @@ export default function Menu() {
         >
           <img
             className="card-img-top img-circle rounded-circle"
-            src="../img\flan.jpg"
+            src={flan}
             alt="Card image cap"
           />
           <div className="card-block text-center">

@@ -1,6 +1,8 @@
 import React from "react";
 import "../Styles/bootstrap.min.css";
 import "../Styles/styles.css";
+import taco from "../Styles/Images/taco.png";
+import bandera from "../Styles/Images/bandera_mexico.jpg";
 
 /*Esta sección esta destinada para mostrar la página principal del restaurante donde se aclara quienes somos y que se realiza*/
 
@@ -24,18 +26,13 @@ export default function Restaurant() {
             </h1>
           </section>
           <section className="img lg:pe-5">
-            <img
-              src="../img\taco.png"
-              alt="Taco"
-              className="rounded"
-              width="500px"
-            />
+            <img src={taco} alt="Taco" className="rounded" width="500px" />
           </section>
         </article>
         <article className="d-flex flex-column flex-lg-row lg:ps-5 py-3 px-3 pt-5 gap-3 justify-content-around align-items-center text-center bg-dark rounded">
           <section className="img lg:pe-5">
             <img
-              src="../img/bandera_mexico.jpg"
+              src={bandera}
               alt="Bandera"
               className="rounded shadow"
               width="500px"

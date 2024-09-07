@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/gallery.css";
-import img from "../../img/taco.png";
+import img from "../Styles/Images/taco.png";
 import img2 from "../Styles/Images/imagen 2.jpg";
 import img3 from "../Styles/Images/imagen 3.jpg";
 import img4 from "../Styles/Images/imagen 4.jpg";
