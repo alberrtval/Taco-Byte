@@ -71,7 +71,7 @@ export default function Gallery() {
               alt="..."
             />
             <div className="carousel-caption d-none d-md-block bg-primary rounded opacity-75">
-              <h5 className="lighter">Bar de sushi</h5>
+              <h5 className="lighter">Salon Principal</h5>
             </div>
           </div>
           <div className="carousel-item">
