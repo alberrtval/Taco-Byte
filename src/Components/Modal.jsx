@@ -24,7 +24,7 @@ export default function Modal({ status, name, price }) {
     status(true);
     swal({
       title: "Reservación exitosa",
-      text: `Has reservado ${price / 10} mesas por $${price} ¡Te esperamos!`,
+      text: `Has reservado ${price / 10} mesas por $${price}. Recuerde cancelarlo durante su visita ¡Te esperamos!`,
       icon: "success",
       button: "Aceptar",
     });
